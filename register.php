@@ -1,6 +1,6 @@
 <?php
-
-include_once __DIR__ . '/includes/functions.php';
+include __DIR__ . '/includes/connection.php';
+include __DIR__ . '/includes/functions.php';
 
 // echo $_SERVER['REQUEST_METHOD']; 
 $errors = [];
